@@ -1,6 +1,6 @@
 import styles from './index.module.css';
 import { Avatar } from '../avatar';
-import { Comentario } from '../comentario';
+import { Comentario } from '../comments';
 import { format, formatDistanceToNow } from 'date-fns';
 import PtBr from 'date-fns/locale/pt-BR';
 import { useState, FormEvent, ChangeEvent } from "react";

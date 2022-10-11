@@ -1,6 +1,6 @@
 import { Header } from './components/header'
 import { Sidebar } from './components/sidebar'
-import { Publication } from './components/publicacao1'
+import { Publication } from './components/post'
 
 import posts from "./components/posts.json";
 import styles from './app.module.css';
