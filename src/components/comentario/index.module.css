@@ -1,0 +1,64 @@
+.profile {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: flex-start;
+    margin-left: 2.70rem;
+    margin-bottom: 1.25rem;
+    margin-top: 2.68rem;
+
+}
+
+.lixeira {
+    width: 1.5rem;
+
+}
+
+.name {
+    margin-bottom: 1rem;
+
+}
+
+.comentario {
+    padding: 1rem;
+    width: 63rem;
+    height: 9.25rem;
+    background: var(--gray-100);
+    border-radius: 8px;
+    margin-left: 1.5rem;
+    margin-right: 2.5rem;
+
+
+}
+
+.horario {
+    margin-top: 0.5rem;
+    font-size: 12px;
+
+}
+
+.superior {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sLikes {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    gap: 0.5rem
+}
+
+
+
+
+.sLikes:hover {
+    color: var(--green-100);
+}
+
+.sLikes {
+    margin-left: 9.6rem;
+    border-style: none;
+    background-color: var(--white-100);
+    color: var(--gray-400);
+}

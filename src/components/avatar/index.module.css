@@ -1,0 +1,36 @@
+
+.avatar{
+    border-top: 6.93rem;
+    box-sizing: initial;
+    width: 4.56rem;
+    height: 3.81rem;
+    border-radius: 8px;
+    outline: 2px solid var(--green-100);
+    
+
+  
+}
+
+.avatarWithBorder{
+    
+    box-sizing: initial;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 8px;
+    border: 8px solid var(--gray-800) ;
+    outline: 2px solid var(--green-100);
+
+}
+
+@media only screen and (max-width: 600px) {
+    .avatar{
+        box-sizing: initial;
+        width: 1.5rem;
+        height: 1.5rem;
+        border-radius: 8px;
+        border: 8px solid var(--gray-800);
+        outline: 2px solid var(--green-100);
+    
+    }
+    
+}
